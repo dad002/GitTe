@@ -8,8 +8,13 @@ namespace GitTest
 {
     class Program
     {
+        public static int sum(int a, int b) {
+            return a + b;
+        }
         public static void Main() {
             Console.WriteLine("Hello world");
+            Console.WriteLine(sum(3, 5));
+            Console.ReadLine();
         }
     }
 }
